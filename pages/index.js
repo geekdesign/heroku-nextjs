@@ -1,10 +1,12 @@
+import "../styles/globals.css";
+import "tailwindcss/tailwind.css";
 import React from "react";
 import Head from "next/head";
 import { Client } from "@notionhq/client";
 import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 
-export default () => {
+export default ({ results }) => {
   useEffect(() => {
     console.log(results);
   });
