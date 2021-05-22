@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/mars/heroku-nextjs#readme",
   "dependencies": {
+    "cors": "*",
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",
     "@notionhq/client": "^0.1.3",
